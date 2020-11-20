@@ -1,0 +1,37 @@
+{
+	"Simbolos": [
+		"a",
+		"b"
+	],
+	"Estados": [
+		"q1",
+		"q2",
+		"q3"
+	],
+	"EstadosFinais": [
+		"q1"
+	],
+	"FuncaoPrograma": [
+		{
+			"Origem": "q1",
+			"Destino": "q2",
+			"Simbolo": "a"
+		},
+		{
+			"Origem": "q2",
+			"Destino": "q1",
+			"Simbolo": "b"
+		},
+		{
+			"Origem": "q2",
+			"Destino": "q3",
+			"Simbolo": "b"
+		},
+		{
+			"Origem": "q3",
+			"Destino": "q1",
+			"Simbolo": "a"
+		}
+	],
+	"EstadoInicial": "q1"
+}
